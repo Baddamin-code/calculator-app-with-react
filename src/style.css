@@ -16,3 +16,12 @@ body {
     grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
 
+.span-two {
+    grid-column: span 2;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
