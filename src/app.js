@@ -2,6 +2,9 @@ import { useState } from "react";
 import "./style.css";
 
 function App() {
+  const [result, setResult] = useState("");
+
+
 
   return (
     <div className="calculator-grid">
