@@ -19,11 +19,14 @@ function App() {
     setResult(eval(result));
   };
 
+  const prevResult = () => {
+    setResult(result)
+  }
+
   return (
     <div className="calculator-grid">
       <div className="output">
-        <div className="prev-operand"></div>
-        <div className="curr-operand">{result}</div>
+        <div className="operand">{result}</div>
       </div>
       <button onClick={clear} className="span-two" id="clear">
         AC
