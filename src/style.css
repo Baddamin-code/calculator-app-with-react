@@ -30,3 +30,7 @@ body {
     font-size: 1.5rem;
 }
 
+.output .curr-operand {
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+}
