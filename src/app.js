@@ -19,9 +19,6 @@ function App() {
     setResult(eval(result));
   };
 
-  const prevResult = () => {
-    setResult(result)
-  }
 
   return (
     <div className="calculator-grid">
