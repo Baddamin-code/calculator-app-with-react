@@ -11,7 +11,13 @@ function App() {
     setResult("")
   };
 
+  const backspace = () => {
+    setResult(result.slice(0, -1))
+  };
 
+  const calculate = () => {
+    setResult(eval(result))
+  }
 
   return (
     <div className="calculator-grid">
