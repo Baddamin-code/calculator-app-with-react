@@ -1,1 +1,1 @@
-Calculator app built with react native
+Calculator app built with react.js
